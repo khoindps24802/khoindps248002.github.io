@@ -1,0 +1,183 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header{
+    height:90px;
+    margin: -8px;
+    background-color:rgb(230, 226, 220);
+}
+
+
+.header__navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.header__navbar-logo-ing{
+    width:110px;
+    margin: -700px 0px 0 -45px;
+}
+.link{
+    text-decoration: none;
+    color: #333;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header__navbar-item{
+    display: flex;
+}
+
+.header__navbar-item,
+.header__navbar-item-link{
+    display:inline-block;
+    color: #333;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+
+.icon-menu{
+    color: #333;
+}
+
+.header__navbar__search:hover,
+.header__navbar-item:hover,
+.icon-menu:hover
+{
+    text-decoration: underline;
+    color: rgba(201, 46, 46, 0.945);
+    cursor:pointer;
+}
+
+.link:hover{
+    color: rgba(201, 46, 46, 0.945);
+    cursor:pointer;
+}
+
+.container{
+    height: 645px;
+    margin: -12px;
+    background-image: url(/image/br1.png);
+    background-size: 100%;
+}
+
+.header__navbar__search{
+    margin:-100px 0 0 512px;
+    border-radius: 15px;
+    padding: 10px 15px 0 0;
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+    width: 400px;
+    padding-left: 15px;
+    padding-top: -20px;
+}
+.header__navbar__text{
+    font-size: 15px;
+    display:flex;
+    display: inline-block;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+/* product */
+.menu{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.images{
+    height: 250px;
+    width:100%;
+}
+
+.leftcolumn{
+    float: left;
+    width:100%;
+}
+
+.column{
+    float:left;
+    width:100%;
+
+}
+
+.card-news{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(116, 107, 107);
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    margin:10px;
+    float: left;
+    text-align: center;
+    overflow: hidden; 
+	position: relative; width: 268px;
+}
+
+	
+.card-news img { 
+	width: 100%; 
+	transition: all 1s;  } 
+	
+.card-news:hover img { 
+	-webkit-transform: scale(1.2); transform: scale(1.2); }
+
+
+
+.prince-old{
+    text-decoration: line-through;
+    color: red;
+}
+
+.prince-now{
+    color: #333;
+}
+
+.fb-text{  
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* .image-fb{
+    padding-top: 10px;
+    width: 150px;
+} */
+
+.img-fb-content{
+    width: 285px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+footer{
+    background-color: rgb(230, 226, 220);
+    height: 320px;
+    margin: -8px;
+    padding-top: 5px;
+}
+.card-news-ft{
+    width:200px;
+    padding-top:20px;
+    padding-left: 160px;
+    float: left;
+}
+.footer-sp{
+    margin-left: 50px;
+}
+.copyright{
+    font-size: 10px;
+    float: left;
+    padding-left: 65px;
+}
+

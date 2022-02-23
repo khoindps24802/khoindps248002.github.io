@@ -1,0 +1,163 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header{
+    height:90px;
+    margin: -8px;
+    background-color:rgb(230, 226, 220);
+}
+
+
+.header__navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.header__navbar-logo-ing{
+    width:110px;
+    margin: -700px 0px 0 -45px;
+}
+.link{
+    text-decoration: none;
+    color: #333;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header__navbar-item,
+.header__navbar-item-link{
+    display:inline-block;
+    color: #333;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+
+.icon-menu{
+    color: #333;
+}
+
+.header__navbar__search:hover,
+.header__navbar-item:hover,
+.icon-menu:hover
+{
+    text-decoration: underline;
+    color: rgba(201, 46, 46, 0.945);
+    cursor:pointer;
+}
+
+.link:hover{
+    color: rgba(201, 46, 46, 0.945);
+    cursor:pointer;
+}
+
+.container{
+    height: 645px;
+    margin: -12px;
+    background-image: url(/image/br1.png);
+    background-size: 100%;
+}
+
+.header__navbar__search{
+    margin:-100px 0 0 512px;
+    border-radius: 15px;
+    padding: 10px 15px 0 0;
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+    width: 400px;
+    padding-left: 15px;
+    padding-top: -20px;
+}
+.header__navbar__text{
+    font-size: 15px;
+    display:flex;
+    display: inline-block;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+/* dang ki */
+h3{
+    text-align: center;
+}
+form{
+    padding: 20px;
+    border: 2px solid #333;
+    width: 300px;
+    height: 200px;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input-text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 210px;
+    height: 25px;
+}
+.login{
+    padding-left: 400px;
+    float: left;
+}
+.create{
+    padding-left: 200px;
+    float: left;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+.with{
+    padding-top: 10px;
+    padding-left: 50px;
+    clear: both;
+    text-align: center;
+}
+.back{
+    clear: both;
+    
+}
+
+.logo{
+    width: 110px;
+    height: 95px;
+    padding-left: 730px;
+}
+
+.icon{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    width: 150px;
+    /* height: 45px; */
+    /* border: 3px solid rgb(115, 111, 131); */
+    border-radius: 3px;
+    margin: 0;
+}
+li{
+    color:#fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+

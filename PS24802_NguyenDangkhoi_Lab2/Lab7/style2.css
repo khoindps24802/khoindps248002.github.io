@@ -1,0 +1,59 @@
+.col-25{
+    width:25%;
+    float:left;
+}
+
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding:5px;
+    text-align: center;
+    position: relative;
+}
+
+.name{
+    font-variant: small-caps;
+    color:orangered;
+}
+
+.image{
+    max-width: 98%px;
+    height:150px;
+    margin-bottom: 10px;
+}
+
+.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    margin-top: 20px;
+    font-family: Impact;
+    font-size: 25px;
+    color: orange;
+}
+
+.icons{
+    position: absolute;
+    color:rgb(0, 255, 64);
+    top: 0px;
+    right:0px;
+    font-size: 22px;
+    padding-top: 105px;
+    padding-right: 20px;
+    height: 15px;
+}
+
+.new{
+    float: right;
+    color:rgb(57, 77, 190);
+    background-color: rgb(118, 189, 97);
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+} 
+
+i{
+    color:rgb(118, 184, 173)
+}

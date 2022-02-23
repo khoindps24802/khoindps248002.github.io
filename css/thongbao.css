@@ -1,0 +1,137 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header{
+    height:90px;
+    margin: -8px;
+    background-color:rgb(230, 226, 220);
+}
+
+
+.header__navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.header__navbar-logo-ing{
+    width:110px;
+    margin: -700px 0px 0 -45px;
+}
+.link{
+    text-decoration: none;
+    color: #333;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header__navbar-item,
+.header__navbar-item-link{
+    display:inline-block;
+    color: #333;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+
+.icon-menu{
+    color: #333;
+}
+
+.header__navbar__search:hover,
+.header__navbar-item:hover,
+.icon-menu:hover{
+    color: rgba(201, 46, 46, 0.945);
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: rgba(201, 46, 46, 0.945);
+    cursor:pointer;
+}
+.container{
+    height: 645px;
+    margin: -12px;
+    background-image: url(/image/br1.png);
+    background-size: 100%;
+}
+
+.header__navbar__search{
+    margin:-100px 0 0 512px;
+    border-radius: 15px;
+    padding: 10px 15px 0 0;
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+    width: 400px;
+    padding-left: 15px;
+    padding-top: -20px;
+}
+.header__navbar__text{
+    font-size: 15px;
+    display:flex;
+    display: inline-block;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.top{
+    text-align: center;
+    color: red;
+}
+.bottom{
+    text-align: center;
+    color:rgb(138, 102, 58);
+}
+.text{
+    padding-left: 30px;
+    padding: 10px, 0px;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(230, 226, 220);
+    height: 320px;
+    margin: -8px;
+    padding-top: 5px;
+}
+
+.grid{
+    width:1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.column{
+    float:left;
+    width:100%;
+
+}
+.card-news-ft{
+    width:200px;
+    padding-top:20px;
+    padding-left: 160px;
+    float: left;
+}
+.footer-sp{
+    margin-left: 50px;
+}
+.copyright{
+    font-size: 10px;
+    float: left;
+    padding-left: 65px;
+}
+
